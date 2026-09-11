@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Code & Flow</title>
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="images/ChasHackKvadratLogo.png"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <nav class="navigation">
+
+            <a href="#hem" class="logo-link">
+                <img
+                    src="images/chas-academy-logo.png"
+                    alt="Chas Academy"
+                    class="logo"
+                >
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#hem">Hem</a></li>
+                <li><a href="#om">Om oss</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+
+            <button id="themeButton" class="theme-button" type="button">
+                Mörkt läge
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="hero" id="hem">
+
+            <article class="hero-text">
+
+                <p class="label">
+                    CHAS ACADEMY · STOCKHOLM
+                </p>
+
+                <h1>
+                    Code <span>&</span><br>
+                    Flow
+                </h1>
+
+                <p class="hero-description">
+                    Vi är ett team med studenter från UX, DevOps och backend.
+                    Tillsammans kombinerar vi våra olika kunskaper för att skapa projekt.
+                </p>
+
+                <a href="#team" id="teamButton" class="main-button">
+                    Möt teamet <span>→</span>
+                </a>
+
+                <p class="click-counter">
+                    Klick: <span id="clickCount">0</span>
+                </p>
+
+            </article>
+
+
+            <figure class="hero-logo">
+
+                <img
+                    src="images/logo.png"
+                    alt="Code & Flow – UX, Fullstack och DevOps"
+                >
+
+            </figure>
+
+        </section>
+
+
+        <figure class="team-hero-image">
+
+            <img
+                src="images/team1.png"
+                alt="Teamet Code & Flow på Chas Academy"
+            >
+
+        </figure>
+
+
+        <section class="about" id="om">
+
+            <header class="about-heading">
+
+                <p class="label">
+                    OM CODE & FLOW
+                </p>
+
+                <h2>
+                    Olika kompetenser.<br>
+                    Ett team.
+                </h2>
+
+            </header>
+
+
+            <article class="about-text">
+
+                <p>
+                    Vi studerar olika inriktningar på Chas Academy och arbetar tillsammans
+                    med design, utveckling och tekniska lösningar.
+                </p>
+
+                <p>
+                    Våra olika perspektiv gör att vi kan arbeta med hela processen,
+                    från idé och användarupplevelse till kod och teknisk implementation.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <section class="team-section" id="team">
+
+            <header class="section-heading">
+
+                <p class="label">
+                    TEAMET
+                </p>
+
+                <h2>
+                    Meet the team.
+                </h2>
+
+                <p class="team-fields">
+                    UX · DevOps · Fullstack
+                </p>
+
+            </header>
+
+            <ul class="team-list" id="teamList"></ul>
+
+        </section>
+
+    </main>
+
+
+    <footer id="kontakt">
+
+        <p>
+            Code & Flow · Chas Academy · Stockholm · 2026
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
