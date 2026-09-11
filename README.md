@@ -8,6 +8,7 @@ Code & Flow är en modern och användarvänlig webbplats skapad av studenter fr�
 - Alex Grolle
 - Marika Lundell
 ## Publicerad webbplats
-[Länk till vår publicerade webbplats](https://paulvillaorduna-dot.github.io/Code-flow/)
+[Länk till vår publicerade webbplats](https://paulvillaorduna-dot.github.io/CodeFlow/)
+
 ## LinkedIn
 [Läs vårt inlägg om ChasHack](https://www.linkedin.com/posts/elnaz-ghanbari-80b938142_chashack-chasacademy-codeandflow-activity-7504145132678508545-B9Tw?utm_source=share&utm_medium=member_ios&rcm=ACoAACKqeYsBPMKuHBbWFQ55EYJtkXBLRcDi1xI)
